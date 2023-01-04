@@ -6,6 +6,13 @@
 body{
     font-family: 'Manrope', sans-serif;
 }
+
+hr{
+    margin-top: 2rem ;
+    margin-left: 0rem;
+    margin-bottom: 2rem ;
+    margin-right: 0em;
+}
 /** container **/
 .container{
     padding: 0rem,1rem;
@@ -18,7 +25,10 @@ body{
 /** links **/
 .link{
     text-decoration: none;
-    padding: 0.5rem,1rem;
+    padding-top: 0.5rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
 }
 .link-primary{
     background-color: var(--primary-color);
@@ -31,4 +41,15 @@ body{
     border: 1px solid var(--primary-color);
     border-radius: 0.5rem;
     
+}
+
+/** List **/
+
+.list-non-bullets{
+     list-style: none;
+}
+.list-item-inline{
+    display: inline;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
 }
