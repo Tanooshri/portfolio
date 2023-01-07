@@ -3,6 +3,7 @@
 :root{
     --primary-color:#fbbf24;
     --slate: #475569;
+    --off-white:#e5e7eb;
 }
 body{
     font-family: 'Manrope', sans-serif;
@@ -95,6 +96,16 @@ hr{
     padding-top: 1rem;
     text-align: center;
 }
+
+/** section **/
+.section h1{
+ text-align: center;
+ padding: 2rem;
+}
+.ow{
+    background-color: var(--off-white);
+}
+
 
 
 
