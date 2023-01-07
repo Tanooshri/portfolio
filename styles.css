@@ -18,11 +18,12 @@ hr{
 }
 /** container **/
 .container{
-    padding: 0rem,1rem;
+    padding: 0rem 1rem;
 }
 .container-center{
-    max-width: 600px;
+    max-width: 900px;
     margin:auto;
+    width: auto;
 }
 
 /** links **/
@@ -32,14 +33,21 @@ hr{
     padding-right: 1rem;
     padding-bottom: 0.5rem;
     padding-left: 1rem;
+    box-sizing: border-box;
 }
 .link-primary{
+    max-width: 140px;
+    margin: 1rem auto;
+    padding: 0.6rem 1.2rem;
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
 
 }
 .link-secondary{
+    max-width: 140px;
+    margin: 1rem auto;
+    padding: 0.6rem 1.2rem;
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
     border-radius: 0.5rem;
@@ -85,7 +93,8 @@ hr{
 
 /** header **/
 .Hero{
-    padding: 2res;
+    padding: 2rem;
+    padding-top: 5rem;
 }
 
 .Hero .hero-img {
@@ -99,9 +108,14 @@ hr{
 }
 
 /** section **/
+.section{
+    padding: 2rem;
+    margin: 2rem 0;
+    border-radius: 1rem;
+    text-align: center;
+}
 .section h1{
  text-align: center;
- padding: 2rem;
 }
 .ow{
     background-color: var(--off-white);
